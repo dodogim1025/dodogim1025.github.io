@@ -1,23 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Doyun Kim</title>
-</head>
-
 <body>
-<h1>Doyun Kim</h1>
 
-<div style="display: flex; align-items: center; justify-content: space-between; max-width: 800px;">
+  <h1>Doyun Kim</h1>
 
-  <div>
+  <!-- 🔹 소개 영역 (가로 배치) -->
+  <div style="display: flex; align-items: center; max-width: 900px; gap: 40px;">
 
-  <img src="profile.jpg"
-       alt="Doyun Kim"
-       width="180"
-       style="border-radius: 50%; margin-left: 30px;">
+    <!-- 왼쪽: 소개 글 -->
+    <div style="max-width: 500px;">
+      <p>
+        Physics undergraduate at Sungkyunkwan University (SKKU), focusing on
+        mathematical physics, functional analysis, and structure-aware learning methods.
+      </p>
+    </div>
 
-</div>
+    <!-- 오른쪽: 사진 -->
+    <img src="profile.jpg"
+         alt="Doyun Kim"
+         width="180"
+         style="border-radius: 50%;">
+  </div>
+
+  <hr>
+
+  <!-- 🔽 여기부터는 전부 세로 (flex 절대 쓰지 말기) -->
 
   <h2>Education</h2>
   <ul>
@@ -55,4 +60,3 @@
   </p>
 
 </body>
-</html>
