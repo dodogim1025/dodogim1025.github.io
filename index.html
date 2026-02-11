@@ -2,61 +2,85 @@
 
   <h1>Doyun Kim</h1>
 
-  <!-- 🔹 소개 영역 (가로 배치) -->
-  <div style="display: flex; align-items: center; max-width: 900px; gap: 40px;">
+  <!-- 🔹 상단 레이아웃: 사진 왼쪽 + (Education + Research Interests) 오른쪽 -->
+  <div style="display: flex; align-items: flex-start; gap: 40px; max-width: 1000px;">
 
-    <!-- 왼쪽: 소개 글 -->
-    <div style="max-width: 500px;">
-      <p>
-        Physics undergraduate at Sungkyunkwan University (SKKU), focusing on
-        mathematical physics, functional analysis, and structure-aware learning methods.
-      </p>
-    </div>
-
-    <!-- 오른쪽: 사진 -->
+    <!-- 왼쪽: 사진 -->
     <img src="profile.jpg"
          alt="Doyun Kim"
-         width="180"
+         width="140"
          style="border-radius: 50%;">
+
+    <!-- 오른쪽: Education + Research Interests -->
+    <div style="max-width: 600px;">
+
+      <h2>Education</h2>
+      <ul>
+        <li>2023–2025: Graduated from Jeonbuk Science High School (JBSH)</li>
+        <li>2026– : B.S. in Physics, Sungkyunkwan University (SKKU)</li>
+      </ul>
+
+      <h2>Research Interests</h2>
+      <ul>
+        <li><strong>Mathematics:</strong> Topology, Functional Analysis, Geometric / Spectral Methods</li>
+        <li><strong>Physics:</strong> Quantum Mechanics, Quantum Information</li>
+      </ul>
+
+    </div>
+
   </div>
 
   <hr>
 
-  <!-- 🔽 여기부터는 전부 세로 (flex 절대 쓰지 말기) -->
+  <!-- 🔽 여기부터는 전부 세로 -->
 
-  <h2>Education</h2>
-  <ul>
-    <li>2023–2025: Graduated from Jeonbuk Science High School (JBSH)</li>
-    <li>2026– : B.S. in Physics, Sungkyunkwan University (SKKU)</li>
-  </ul>
-
-  <h2>Research Interests</h2>
-  <ul>
-    <li>Mathematical Physics</li>
-    <li>Quantum Mechanics and Quantum Information</li>
-    <li>Functional Analysis and Partial Differential Equations</li>
-    <li>Scientific Machine Learning</li>
-    <li>Data Analysis for Physical Systems</li>
-  </ul>
-
-  <h2>Research Focus</h2>
+  <h2>About</h2>
   <p>
-    I am interested in understanding the mathematical structures underlying
-    physical systems and modern machine learning models, particularly
-    low-dimensional structures such as manifolds and operators.
+    I am driven by questions about structure. I am particularly interested in understanding how
+    low-dimensional geometric or functional structures emerge from high-dimensional physical
+    and data-driven systems.
+  </p>
+  <p>
+    My recent explorations include manifold-based representations, operator perspectives such as
+    Fourier analysis, and topological viewpoints on complex datasets. I am motivated by the idea
+    that rigorous mathematical frameworks can reveal hidden simplicity within seemingly complex systems.
   </p>
 
-  <h2>Background</h2>
+  <h2>Research Experience</h2>
+
+  <h3>Topological Data Analysis (TDA)</h3>
   <ul>
-    <li>Undergraduate-level Linear Algebra and Calculus</li>
-    <li>Self-study on Fourier Analysis and Partial Differential Equations</li>
-    <li>Basic experience with Python for data analysis and numerical experiments</li>
+    <li>Explored persistent homology to understand geometric and topological structures in high-dimensional datasets.</li>
+    <li>Investigated how topological invariants capture global structure beyond classical statistical summaries.</li>
   </ul>
 
-  <h2>Statement</h2>
-  <p>
-    I aim to explore structure-aware learning methods that connect
-    physics, mathematics, and machine learning.
+  <h3>Manifold Learning</h3>
+  <ul>
+    <li>Studied the manifold hypothesis and its implications for high-dimensional data representations.</li>
+    <li>Explored dimensionality reduction techniques and their relation to intrinsic geometric structure.</li>
+  </ul>
+
+  <h3>Fourier Analysis</h3>
+  <ul>
+    <li>Investigated Fourier analysis as a bridge between function spaces and physical modeling.</li>
+    <li>Focused on operator-theoretic interpretations and limitations of L²-based representations.</li>
+  </ul>
+
+  <h3>Principal Component Analysis (PCA)</h3>
+  <ul>
+    <li>Investigated PCA as a spectral dimensionality reduction method via eigenvalue decomposition.</li>
+    <li>Explored how linear subspace projection captures dominant structure in high-dimensional representations.</li>
+  </ul>
+
+  <h2>Technical Skills</h2>
+  <ul>
+    <li><strong>Programming:</strong> Python (NumPy, numerical experiments, data visualization)</li>
+    <li><strong>Mathematical Foundations:</strong> Linear Algebra, Multivariable Calculus, Introductory Topology, Basic Analysis</li>
+    <li><strong>Tools:</strong> Git, LaTeX</li>
+  </ul>
+
+</body>
+
   </p>
 
 </body>
